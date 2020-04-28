@@ -58,7 +58,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 30px; 
             }
         </style>
     </head>
@@ -66,6 +66,7 @@
     <div class="content">
         @include('layouts.navbar')
         @yield('content')
+        @include('layouts.footer')
 
 </div>
     </body>
