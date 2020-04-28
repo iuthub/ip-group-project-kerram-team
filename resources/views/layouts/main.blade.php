@@ -4,11 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Hotel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <!-- Styles -->
         <style>
             html, body {
@@ -65,12 +64,9 @@
     </head>
     <body>
     <div class="content">
+        @include('layouts.navbar')
         @yield('content')
-       <div class="links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contacts">Contact</a>
-    </div>
+
 </div>
     </body>
 </html>
