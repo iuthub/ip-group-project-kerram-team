@@ -83,7 +83,50 @@ aria-expanded="false" aria-label="Toggle navigation"  >
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <h2> About US </h2>
+        <h1>Hotel.Uz</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
 
+      </div>
+      <div class="col-sm-4">
+          <img class="img-fluid" src="pic4.jpg" alt="Third Slide">
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+
+    <! –– Google mamp https://www.w3schools.com/graphics/google_maps_intro.asp ––>
+
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng([41.338681957452685,69.33485593332827],-0.120850),
+  zoom:9,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<! –– Googlehttps://www.w3schools.com/howto/howto_css_fixed_footer.asp mamp https://www.w3schools.com/graphics/google_maps_intro.asp ––>
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
