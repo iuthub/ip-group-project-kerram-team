@@ -1,8 +1,15 @@
-@extends('layouts.main')
-<link rel="stylesheet" href="/css/contact_us.css"/>
-
-@section('content')
-	<div class="contact-section">
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/css/contact_us.css"/>
+		
+		<title>Our Hotel</title>
+	</head>
+	<body>
+		<div class="contact-section">
 			<h1> Leave Us Feedback!</h1>
 			<div class="border"></div>
 			<form class="contact-form" action="index.html" method="post">
@@ -13,4 +20,5 @@
 				<input type="submit" class="contact-form-btn" value="Send">
 			</form>
 		</div>
-@endsection
+	</body>
+</html>
