@@ -23,10 +23,10 @@
 				<a href="#" class="nav-link">Sing In</a>
 			</li>
 			<li class="nav-item">
-				<a href="{{route('Contacts')}}" class="nav-link">Feedback</a>
+				<a href="{{route('Contacts')}}" class="nav-link">Contact Us</a>
 			</li>
 			<li class="nav-item">
-				<a href="{{route('About')}}" class="nav-link">About US</a>
+				<a href="{{route('About')}}" class="nav-link">About Us</a>
 			</li>
 		</ul>
 	</div>
