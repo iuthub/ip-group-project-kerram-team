@@ -13,7 +13,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="/Anis.jpg" alt="Anis" style="width:100%">
+        <img src="Anis.jpg" alt="Anis" style="width:100%">
         <div class="container">
           <h2>Anis Kurbonov</h2>
           <p class="title">Backend Developer</p>
@@ -26,7 +26,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="/Doston.jpg" alt="Dostonbek" style="width:100%">
+        <img src="Doston.jpg" alt="Dostonbek" style="width:100%">
         <div class="container">
           <h2>Dostonbek Rustamov </h2>
           <p class="title">Front-end Developer</p>
@@ -39,7 +39,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="/Javokhir.jpg" alt="Javokhir" style="width:100%">
+        <img src="Javokhir.jpg" alt="Javokhir" style="width:100%">
         <div class="container">
           <h2>Javokhir Ziyautdinov</h2>
           <p class="title">Front-end Developer</p>
@@ -53,7 +53,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="/Jamshedkhon.jpg" alt="Jamshedkhon" style="width:100%">
+        <img src="Jamshedkhon.jpg" alt="Jamshedkhon" style="width:100%">
         <div class="container">
           <h2>Jamshedkhon Akobirov</h2>
           <p class="title">Main "Zadrot"</p>
@@ -66,7 +66,7 @@
     
     <div class="column">
       <div class="card">
-        <img src="/Temur.jpg" alt="Temur" style="width:100%">
+        <img src="Temur.jpg" alt="Temur" style="width:100%">
         <div class="container">
           <h2>Temur Shavkatov</h2>
           <p class="title">Kerkalla</p>
