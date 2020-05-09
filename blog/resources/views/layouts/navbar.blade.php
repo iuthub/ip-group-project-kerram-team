@@ -12,10 +12,7 @@
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item active">
 				<a href="{{route('MainPage')}}" class="nav-link">Home</a>
-			</li>
-			<li class="nav-item">
-				<a href="{{route('Gallery')}}" class="nav-link">Services</a>
-			</li>
+			</li>			
 			<li class="nav-item">
 				<a href="{{route('Booking')}}" class="nav-link">Booking</a>
 			</li>
@@ -24,6 +21,9 @@
 			</li>
 			<li class="nav-item">
 				<a href="{{route('Contacts')}}" class="nav-link">Contact Us</a>
+			</li>
+			<li class="nav-item">
+				<a href="{{route('Gallery')}}" class="nav-link">Services</a>
 			</li>
 			<li class="nav-item">
 				<a href="{{route('About')}}" class="nav-link">About Us</a>

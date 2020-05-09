@@ -15,8 +15,12 @@
 			<input type="email" name ="e-mail" placeholder="E-mail" id = "e-mail" class= "contact-form-text">
 		</div>
 		<div>
-			<label for="phone" class="labelfont">Phone number</label>
-			<input type="text" name="phone" placeholder="Phone Number" id = "phone" class="contact-form-text">
+			<label for="phone" class="labelfont">Phone number (#######)</label>
+			<input type="text" name="phone" placeholder="#######" id = "phone" class="contact-form-text" patter="[0-9999999]">
+		</div>
+		<div>
+			<label for="rating" class="labelfont">Rating</label>
+			<input type="text" name="rating" placeholder="Enter rating from 0 to 5" id="rating" class="contact-form-text">
 		</div>
 		<div>
 			<label for="message" class="labelfont">Your feedback</label>

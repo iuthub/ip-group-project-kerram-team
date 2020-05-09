@@ -19,7 +19,7 @@ Route::get('/about', 'PagesController@about')->name('About');
 
 Route::get('/contact','PagesController@contact')->name('Contacts');
 
-Route::get('/gallery','PagesController@gallery')->name('Gallery');
+Route::get('/gallery','FeedbackController@allData')->name('Gallery');
 
 Route::get('/booking','PagesController@booking')->name('Booking');
 

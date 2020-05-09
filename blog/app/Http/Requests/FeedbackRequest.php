@@ -2,6 +2,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use App\Rules\PhoneNumber;
 
 class FeedbackRequest extends FormRequest
 {
@@ -23,7 +24,8 @@ class FeedbackRequest extends FormRequest
     {
     return ['name'=>'required|min:3|max:30',
             'e-mail'=>'required|min:7|max:30',
-            'phone'=>'required|numeric',
+            'phone'=>'required|numeric|min:1|max:9999999',
+            'rating'=>'required|numeric|min:0|max:5',
             'message'=>'required|min:1|max:500'];
     }
 }
