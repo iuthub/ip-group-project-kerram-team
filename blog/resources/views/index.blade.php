@@ -37,7 +37,7 @@ aria-expanded="false" aria-label="Toggle navigation"  >
       <a href="#" class="nav-link">Make Order</a>
     </li>
     <li class="nav-item">
-      <a href="/others/contact_us.blade.php" class="nav-link">Contact US</a>
+      <a href="/contact" class="nav-link">Contact US</a>
     </li>
 </ul>
 </div>
