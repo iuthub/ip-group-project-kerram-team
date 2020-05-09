@@ -23,4 +23,8 @@ Route::get('/gallery','FeedbackController@allData')->name('Gallery');
 
 Route::get('/booking','PagesController@booking')->name('Booking');
 
+<<<<<<< HEAD
+Route::get('/login','PagesController@login')->name('Login');
+=======
 Route::post('/contact/submit', 'FeedbackController@submit')->name('contact-form');
+>>>>>>> a0e184990fa592a535224c726e6835df81593292

@@ -1,0 +1,41 @@
+body {
+    background:url('https://w.wallhaven.cc/full/45/wallhaven-45k9z8.jpg');
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 100px;
+    padding: 0 5px;
+}
+
+.lead {
+    font-size: 30px;
+}
+
+input[type="email"],
+input[type="password"] {
+    
+    padding: 25px;
+}
+
+.btn {
+    
+    padding: 10px 0;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #27496d;
+}
+.hotel {
+    background-color:#34ab2f;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.hotel:hover {
+    color: #ccc;
+}
