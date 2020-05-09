@@ -22,3 +22,5 @@ Route::get('/contact','PagesController@contact')->name('Contacts');
 Route::get('/gallery','PagesController@gallery')->name('Gallery');
 
 Route::get('/booking','PagesController@booking')->name('Booking');
+
+Route::get('/login','PagesController@login')->name('Login');

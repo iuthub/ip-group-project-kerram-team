@@ -21,4 +21,7 @@ class PagesController extends Controller
     public function booking(){
         return view('pages.book');
     }
+    public function login(){
+        return view('pages.login');
+    }
 }

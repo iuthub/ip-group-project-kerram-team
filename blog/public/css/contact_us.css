@@ -22,6 +22,7 @@ body{
   text-align: center;
   color: #fff;
 }
+
 .border{
   width: 100px;
   height: 10px;
@@ -37,6 +38,7 @@ body{
 }
 
 .contact-form-text{
+  
   display: block;
   width: 100%;
   box-sizing: border-box;
