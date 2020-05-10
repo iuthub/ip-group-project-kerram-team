@@ -1,20 +1,5 @@
 @extends('layouts.main')
-<<<<<<< HEAD
-<link rel="stylesheet" href="/css/contact_us.css"/>
-@section('content')
-<div class="contact-section">
-	<h1> Leave Us Feedback!</h1>
-	
-		<div class="border"></div>
-		<form class="contact-form" action="index.html" method="post">
-			<input type="text" class="contact-form-text" placeholder="Your name">
-			<input type="email" class="contact-form-text" placeholder="Your email">
-			<input type="text" class="contact-form-text" placeholder="Your phone">
-			<textarea class="contact-form-text" placeholder="Your message"></textarea>
-			<input type="submit" class="contact-form-btn" value="Send">
-		</form>
 
-=======
 <link rel="stylesheet" href="css/contact_us.css"/>
 @section('content')
 <div class = "contact-section">
@@ -46,6 +31,5 @@
 		<button type ="submit " class = "contact-form-btn">Send</button>
 		
 	</form>
->>>>>>> a0e184990fa592a535224c726e6835df81593292
 </div>
 @endsection

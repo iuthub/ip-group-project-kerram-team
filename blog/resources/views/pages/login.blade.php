@@ -35,9 +35,9 @@
                             </div>
                             <hr class="my-4">
                             <div>
-                                <a href="#">
-                                    <button class="btn btn-lg btn-block hotel  mb-3">
-                                    <span class="hotel"></span> Back to Hotel.Uz
+                                <a href="{{route('MainPage')}}">
+                                    <button class="btn btn-lg btn-block hotel  mb-3" href="">
+                                    <span class="hotel"> Back to Hotel.Uz</span>
                                 </button>
                             </a>
                             </div>
