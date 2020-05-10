@@ -39,7 +39,7 @@
                                 <div>
                                     <a href="{{route('SignUp')}}">
                                         <button class="btn btn-primary btn-lg btn-block">
-                                        Sign Up
+                                        Sign Ups
                                         </button>
                                     </a>
                                 </div>
