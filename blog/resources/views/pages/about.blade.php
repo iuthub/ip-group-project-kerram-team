@@ -8,8 +8,8 @@
     <p>"Kerram" Team</p>
     <p>We are the students of IUT (4th semester) currently developing the website for "Kerram" Hotel.</p>
   </div>
-  
-  
+
+
   <div class="row">
     <div class="column">
       <div class="card">
@@ -50,7 +50,8 @@
       </div>
     </div>
 
-
+</div>
+<div class="row justify-content-center">
     <div class="column">
       <div class="card">
         <img src="Jamshedkhon.jpg" alt="Jamshedkhon" style="width:100%">
@@ -63,7 +64,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class="column">
       <div class="card">
         <img src="Temur.jpg" alt="Temur" style="width:100%">
