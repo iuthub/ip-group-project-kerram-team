@@ -10,21 +10,21 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="img-fluid" src="pic1.png" alt="First Slide">
+                <img class="img-fluid" src="pic2.png" alt="First Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="pic2.png" alt="Second Slide">
+                <img class="img-fluid" src="pic3.png" alt="Second Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="pic3.png" alt="Third Slide">
+                <img class="img-fluid" src="pic4.jpg" alt="Third Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
