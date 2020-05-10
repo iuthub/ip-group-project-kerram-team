@@ -46,7 +46,7 @@
       <div class="col-sm-2"></div>
       <div class="col-lg-4 col-md-8  col-sm-12 text-center">
 
-        <h1>Hotel.Uz</h1>
+        <h1 id="OurHistory">Hotel.Uz</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </section>
 <section id="fac">
 <div class="container">
-<h2 class="text-center"> Hotel's Facilities</h2>
+<h2 id="OurFacilities" class="text-center"> Hotel's Facilities</h2>
 <div class="row d-flex justify-content-center mb-5">
 <div class="col-md-8 ">
 <p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -97,7 +97,7 @@ id="icon"></i>
 </div>
 </section>
 </section id="map">
-<h2 class="text-center">Our Location</h2>
+<h2 id="OurLocation" class="text-center">Our Location</h2>
 <div class="row text-center">
   <div class="col-lg-4 col-md-12 mb-3">
     <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Tashkent</p>
