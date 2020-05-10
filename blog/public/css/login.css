@@ -1,5 +1,7 @@
 body {
     background:url('https://w.wallhaven.cc/full/45/wallhaven-45k9z8.jpg');
+background-repeat: no-repeat;
+ background-size: cover; 
 }
 
 .card {
@@ -16,12 +18,12 @@ body {
 
 input[type="email"],
 input[type="password"] {
-    
+
     padding: 25px;
 }
 
 .btn {
-    
+
     padding: 10px 0;
     color: #fff;
 }

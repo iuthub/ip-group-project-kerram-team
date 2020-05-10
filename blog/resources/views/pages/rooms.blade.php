@@ -49,7 +49,7 @@
                     <h6>Bed: <span>Marriot Bed by Jamison</span></h6>
                     <h6>Services: <span>Wifi, television ...</span></h6>
                 </div>
-                <a href="#" class="btn view-detail-btn" id= "roomStandard">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <a href="{{route('Booking')}}" class="btn view-detail-btn" id= "roomStandard">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
             </div>
         </div>
         
@@ -69,7 +69,7 @@
                     <h6>Bed: <span>Hilton Garden Inn Bed</span></h6>
                     <h6>Services: <span>Wifi, television, balcon ...</span></h6>
                 </div>
-                <a href="#" class="btn view-detail-btn" id="roomLux">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <a href="{{route('Booking')}}" class="btn view-detail-btn" id="roomLux">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
             </div>
         </div>
         <!-- Single Room Area -->
@@ -88,7 +88,7 @@
                     <h6>Bed: <span>Sheraton’s Sleep Experience Mattress</span></h6>
                     <h6>Services: <span>Wifi, television, additional rooms ...</span></h6>
                 </div>
-                <a href="#" class="btn view-detail-btn" id= "roomApartment">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <a href="{{route('Booking')}}" class="btn view-detail-btn" id= "roomApartment">Book Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
             </div>
         </div>
       

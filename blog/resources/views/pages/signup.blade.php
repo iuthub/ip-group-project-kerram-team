@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="stylesheet" href="css/login.css">
-            <title>Login Form</title>
+            <title>Sign Up</title>
         </head>
         <body>
             <div class="container">
@@ -16,7 +16,7 @@
                     <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title lead text-center my-4">Sign In</div>
+                                <div class="card-title lead text-center my-4">Create Account</div>
                                 <form action="" method="" >
                                     <div class="form-group">
                                         <input type="email" class="form-control" placeholder="Email Address">
@@ -27,7 +27,7 @@
                                     
                                     <div>
                                         <button class="btn btn-primary btn-lg btn-block">
-                                            Sign In
+                                            Sign Up
                                         </button>
                                     </div>
                                     <hr class="my-4">
@@ -37,9 +37,9 @@
                                     </div>
                                 </form>
                                 <div>
-                                    <a href="{{route('SignUp')}}">
+                                    <a href="{{route('Login')}}">
                                         <button class="btn btn-primary btn-lg btn-block">
-                                        Sign Ups
+                                            Back To Login
                                         </button>
                                     </a>
                                 </div>
