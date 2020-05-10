@@ -24,7 +24,11 @@ class BookingRequest extends FormRequest
     public function rules()
     {
         return [
-            ''
+            'name'=>'required',
+            'email'=>'email:rfc,dns',
+            'RoomType'=>'required',
+            'arrival'=>'required|date|after:tomorrow',
+            'depart'=>'required|date|after:arrival'
         ];
     }
 }

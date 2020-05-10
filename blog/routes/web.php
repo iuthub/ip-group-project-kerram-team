@@ -27,3 +27,5 @@ Route::get('/login','PagesController@login')->name('Login');
 
 Route::post('/contact/submit', 'FeedbackController@submit')->name('contact-form');
 
+Route::post('/booking/submit',
+	 'BookingController@submit')->name('reserve');
