@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="pic4.jpg" alt="Third Slide">
+                <img class="img-fluid" src="pic1.jpg" alt="Third Slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="car">First slide label</h2>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -39,6 +39,7 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
+
 <main class="mt-5">
   <section>
 <div class="container-lg">
@@ -47,8 +48,10 @@
       <div class="col-lg-4 col-md-8  col-sm-12 text-center">
 
         <h1 id="OurHistory">Hotel.Uz</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p> Hotel.uz flagship brand and one of the largest hotel brands in the world.The brand is targeted at both business and leisure travelers with locations in major city centers, near airports, convention centers, and popular vacation destinations around the world.
+
+Hotel.uz participates in Hotel.uz Honors, Hotel.uz guest loyalty program. Members who book directly through Hilton-owned channels receive exclusive discounts and amenities such as free Wi-Fi, digital check-in, keyless entry, and the ability to use a mobile app to choose specific rooms.
+
         </p>
       </div>
       <div class="col-lg-4 col-md-8 col-sm-12 text-center">
@@ -57,12 +60,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </div>
   </div>
 </section>
+<hr class="my-5">
 <section id="fac">
 <div class="container">
 <h2 id="OurFacilities" class="text-center"> Hotel's Facilities</h2>
 <div class="row d-flex justify-content-center mb-5">
 <div class="col-md-8 ">
-<p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<p class='text-center'>We have a lot of hotel's facilities ,which you can enjoy during your placement time.
 </p>
 </div>
 </div>
@@ -72,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <i class="fa fa-star fa-5x grey-text"
   id="icon"></i>
 <h4 class="text-center">Disco Club</h4>
-<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a</p>
+<p class="text-center">Disco club is a big entertaiment place for 40 people.Every night there is a party , which you can enjoy with ohter guest of Hotel.uz, all drinks are free for roomkeepers! </p>
 
 
 </div>
@@ -81,7 +85,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <i class="fa fa-futbol-o fa-5x grey-text"
 id="icon"></i>
 <h4 class="text-center">Stadium</h4>
-<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a</p>
+<p class="text-center">We have a big Stadium with a lot of playground for diffenrt sport games like basketball ,football,tennis,hokey.Besides thaat it has playground for children and outdoor gym!</p>
 
 
 </div>
@@ -90,29 +94,30 @@ id="icon"></i>
 <i class="fa fa-cutlery fa-5x grey-text"
 id="icon"></i>
 <h4 class="text-center">Reustarant</h4>
-<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a</p>
+<p class="text-center">We have a big Restaurant which is only for roomkepers so It always  unnoise here and comfortable.It is italian reastaurant and national.So you can mix  plov with pizza!</p>
 
 
 </div>
 </div>
 </section>
-</section id="map">
+<hr class="my-5">
+<section id="map">
 <h2 id="OurLocation" class="text-center">Our Location</h2>
 <div class="row text-center">
-  <div class="col-lg-4 col-md-12 mb-3">
+  <div class="col-lg-4 col-md-12 mb-3 mt-3">
     <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Tashkent</p>
 </div>
 
-<div class="col-lg-4 col-md-12 mb-3">
+<div class="col-lg-4 col-md-12 mb-3 mt-3">
   <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Sun</p>
 </div>
-<div class="col-lg-4 col-md-12 mb-3">
+<div class="col-lg-4 col-md-12 mb-3 mt-3">
   <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+9989000000</p>
 </div>
   </div>
 <div class="container-fluid">
-<div class=" col-lg-12 col-md-12">
-<div class="shadow p-3 mb-5 bg-white rounded">
+<div class=" col-lg-12 col-md-12 ">
+<div class="map">
   <div id="googleMap" class="z-depth-1 " style="width:100%;height:600px;"></div>
 </div>
 </div>

@@ -11,11 +11,24 @@ body{
 
 
 }
+.map{
+  border-style: solid;
+  border-width: 10px;
+  border-color:  #1b0da3;
+}
+.fa{
+color:#ffea01;
+-webkit-text-stroke: 0.5px Black;
+}
+hr {
+   border: 0.5px solid gold;
+}
 
 h1,h2,h3,h4,h5,h6{
-font-family: "Raleway";
+font-family: "Raleway Black ";
 font-weight: 300;
-color: #FFD700;
+color: #1b0da3;
+font-style:bold;
 
 }
 #fac{
