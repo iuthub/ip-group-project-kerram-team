@@ -21,11 +21,10 @@
                         <div class="card-title lead text-center my-4">Sign In</div>
                         <form>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email Address" required autofocus>
+                                <input type="email" class="form-control" placeholder="Email Address">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Enter Password" required
-                                    autofocus>
+                                <input type="password" class="form-control" placeholder="Enter Password">
                             </div>
                            
                             <div>
@@ -34,17 +33,18 @@
                                 </button>
                             </div>
                             <hr class="my-4">
+                            
                             <div>
+                                
+                            </div>
+                        </form>
+                        <div>
                                 <a href="{{route('MainPage')}}">
                                     <button class="btn btn-lg btn-block hotel  mb-3" href="">
                                     <span class="hotel"> Back to Hotel.Uz</span>
                                 </button>
                             </a>
                             </div>
-                            <div>
-                                
-                            </div>
-                        </form>
                     </div>
                 </div>
             </div>
