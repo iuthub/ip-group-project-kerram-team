@@ -27,3 +27,4 @@ Route::get('/login','PagesController@login')->name('Login');
 
 Route::post('/contact/submit', 'FeedbackController@submit')->name('contact-form');
 
+Route::get('/rooms', 'PagesController@rooms')->name('Rooms');

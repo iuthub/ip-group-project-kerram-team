@@ -29,10 +29,13 @@
 				<a href="{{route('Contacts')}}" class="nav-link">Contact Us</a>
 			</li>
 			<li class="nav-item">
-				<a href="{{route('Gallery')}}" class="nav-link">Services</a>
+				<a href="{{route('Gallery')}}" class="nav-link">Feedbacks</a>
 			</li>
 			<li class="nav-item">
 				<a href="{{route('About')}}" class="nav-link">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a href="{{route('Rooms')}}" class="nav-link">Rooms</a>
 			</li>
 		</ul>
 	</div>
