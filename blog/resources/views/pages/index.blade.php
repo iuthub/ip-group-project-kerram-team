@@ -44,17 +44,16 @@
 <div class="container-lg">
     <div class="row ">
       <div class="col-sm-2"></div>
-      <div class="col-sm-4 text-center">
+      <div class="col-lg-4 col-md-8  col-sm-12 text-center">
 
         <h1>Hotel.Uz</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
-      <div class="col-sm-4">
-          <img class="img-fluid" src="pic4.jpg" alt="Third Slide">
+      <div class="col-lg-4 col-md-8 col-sm-12 text-center">
+          <img class="img-fluid " src="pic4.jpg" alt="Third Slide">
       </div>
-      <div class="col-sm-2"></div>
     </div>
   </div>
 </section>
@@ -62,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <div class="container">
 <h2 class="text-center"> Hotel's Facilities</h2>
 <div class="row d-flex justify-content-center mb-5">
-<div class="col-md-8">
+<div class="col-md-8 ">
 <p class='text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 </p>
 </div>
@@ -113,7 +112,9 @@ id="icon"></i>
   </div>
 <div class="container-fluid">
 <div class=" col-lg-12 col-md-12">
-  <div id="googleMap" class="z-depth-1" style="width:100%;height:600px;"></div>
+<div class="shadow p-3 mb-5 bg-white rounded">
+  <div id="googleMap" class="z-depth-1 " style="width:100%;height:600px;"></div>
+</div>
 </div>
 </div>
 </section>
@@ -122,8 +123,8 @@ id="icon"></i>
   <script>
   function myMap() {
   var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
+    center:new google.maps.LatLng(41.338525,69.332336),
+    zoom:8,
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   }

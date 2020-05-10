@@ -1,15 +1,16 @@
-<footer class="pt-4 my-md-5 pt-md-5 border-top ">
+<footer class="pt-4 mt-5 pt-md-5 border-top ">
   <style>
 footer {
   background-color: #27496d;
   color: #FFFFFF;
-
+height: 100%
 }
 
 
 
 </style>
-    <div class="row">
+
+    <div class="row justify-content-center ">
       <div class="col-12 col-md">
       </div>
       <div class="col-6 col-md">
@@ -40,4 +41,5 @@ footer {
         </ul>
       </div>
     </div>
+
   </footer>
